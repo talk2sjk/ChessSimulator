@@ -1,7 +1,12 @@
 # ChessSimulator
 A simple console app to simulate the movement of various chess pieces
 
+
+## Prerequisite
+- To run the `ChessSimulator.jar` file, you need JDJ version 24 or higher.
+
 ## Steps to Run the JAR File
+
 1. Navigate to `ChessSimulator\out\artifacts\ChessSimulator_jar`.
 2. Copy the `ChessSimulator.jar` file to your desired folder (e.g., `D:\Jar`).
 3. Open a command terminal and navigate to the folder where the JAR file is located (e.g., `D:\Jar`).
@@ -10,3 +15,4 @@ A simple console app to simulate the movement of various chess pieces
    King, A1
 6. The program will display the possible moves for the entered piece at the specified position. For example:
    Possible moves for King at A1: A2, B1, B2
+7. To exit the program, type the command exit
