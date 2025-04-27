@@ -51,7 +51,7 @@ public class ChessSimulatorApp {
 
                 }
             } catch (IllegalArgumentException e) {
-                System.out.print(e.getMessage());
+                System.out.println(e.getMessage());
             }
         }
         scanner.close();
