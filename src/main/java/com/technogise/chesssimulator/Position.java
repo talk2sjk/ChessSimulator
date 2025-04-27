@@ -44,4 +44,13 @@ public class Position {
 
         return new Position(row, col);
     }
+
+    // Override equals to compare based on column and row
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Position position = (Position) o;
+        return mCol == position.getCol() && mRow == position.getRow();
+    }
 }
