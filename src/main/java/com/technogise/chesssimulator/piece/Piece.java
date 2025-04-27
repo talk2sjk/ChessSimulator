@@ -1,4 +1,19 @@
 package com.technogise.chesssimulator.piece;
 
-public class Piece {
+import com.technogise.chesssimulator.Position;
+
+import java.util.List;
+
+public abstract class Piece {
+    public Position mPosition;
+
+    public Piece(Position  position) {
+        mPosition = position;
+    }
+
+    public Position getPosition() {
+        return mPosition;
+    }
+
+    public abstract List<Position> getAllPossibleMoves();
 }
